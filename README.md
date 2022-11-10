@@ -1,24 +1,31 @@
-# DIO - Trilha .NET - Programação orientada a objetos
-www.dio.me
 
-## Desafio de projeto
-Para este desafio precisei usar seus conhecimentos adquiridos no módulo de orientação a objetos, da trilha .NET da DIO.
+# DIO - .NET Trail - Object Oriented Programming
+[Digital Innovation One](https://www.dio.me/?ref=RE6NDV822B)
 
-## Contexto
-Nesse desafio eu sou responsável por modelar um sistema que trabalha com celulares. Para isso, foi solicitado que eu fizesse uma abstração de um celular e disponibilize maneiras de diferentes marcas e modelos terem seu próprio comportamento, possibilitando um maior reuso de código e usando a orientação a objetos.
+## Design Challenge 🚧
+For this challenge I needed to use the knowledge acquired in the object-oriented module, from DIO's .NET track.
 
-## Proposta
-Eu precisei criar um sistema em .NET, do tipo console, mapeando uma classe abstrata e classes específicas para dois tipos de celulares: Nokia e iPhone. 
-A princípio eu criei as classes de acordo com o diagrama abaixo:
+## Context 📞
+In this challenge I am responsible for modeling a system that works with cell phones. For this, I was asked to make an abstraction of a cell phone and provide ways for different brands and models to have their own behavior, allowing greater code reuse and using object orientation.
 
-![Diagrama classes](Imagens/diagrama.png)
+## Proposal 📴
+I needed to create a system in .NET, console type, mapping an abstract class and specific classes for two types of cell phones: Nokia and iPhone.
+At first I created the classes according to the diagram below:
 
-## Regras e validações
-1. A classe **Smartphone** deve ser abstrata, não permitindo instanciar e servindo apenas como modelo.
-2. A classe **Nokia** e **Iphone** devem ser classes filhas de Smartphone.
-3. O método **InstalarAplicativo** deve ser sobrescrito na classe Nokia e iPhone, pois ambos possuem diferentes maneiras de instalar um aplicativo.
+![Class diagram](Imagem/diagrama.png)
 
-## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+## Rules and validations 📋
+1. The **Smartphone** class must be abstract, not allowing instantiation and serving only as a model.
+2. Class **Nokia** and **Iphone** must be child classes of Smartphone.
+3. The **InstalarAplicativo** method must be overridden in the Nokia and iPhone class, as they both have different ways of installing an application.
 
+## Solution 📲
+The code was half finished, and I had to continue following the rules described above, so that in the end, there was a working program.
+
+## Increment++ 🎓💡
+ - In addition to the "Nokia" and "Iphone" classes, I created the "Motorola" class;
+ - In addition to the "Ligar()" and "ReceberLigacao()" methods, the "Desligar()" and "RecusarLigacao()" methods were created.
+ 
+ 
+ 
  [Certificate: 📜](https://www.dio.me/certificate/E8F8A44C/share)
