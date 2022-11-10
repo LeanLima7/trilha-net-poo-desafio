@@ -19,11 +19,23 @@ namespace DesafioPOO.Models
         public void Ligar()
         {
             Console.WriteLine("Ligando...");
+
         }
+
+        public void Desligar()
+        {
+            Console.WriteLine("Desligando...");
+        }
+
 
         public void ReceberLigacao()
         {
             Console.WriteLine("Recebendo ligação...");
+        }
+
+        public void RecusarLigação() 
+        {
+            Console.WriteLine("Recusando ligação...");
         }
 
         public abstract void InstalarAplicativo(string nomeApp);
