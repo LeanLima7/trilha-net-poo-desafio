@@ -12,7 +12,7 @@ In this challenge I am responsible for modeling a system that works with cell ph
 I needed to create a system in .NET, console type, mapping an abstract class and specific classes for two types of cell phones: Nokia and iPhone.
 At first I created the classes according to the diagram below:
 
-![Class diagram](Imagem/diagrama.png)
+![Class diagram](https://github.com/digitalinnovationone/trilha-net-poo-desafio/blob/main/Imagens/diagrama.png)
 
 ## Rules and validations 📋
 1. The **Smartphone** class must be abstract, not allowing instantiation and serving only as a model.
